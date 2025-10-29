@@ -1,0 +1,10 @@
+import { Repo } from 'codex-js';
+
+@Repo()
+class {{ModuleName}}Repo {
+  
+
+  
+}
+
+export default {{ModuleName}}Repo;

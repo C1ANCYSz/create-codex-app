@@ -1,0 +1,18 @@
+import { Controller,Get,Post,Put,Patch,Delete,Inject } from 'codex-js';
+
+import {{ModuleName}}Service from './{{ModuleName}}.Service.js';
+
+
+
+
+@Controller("/")
+class {{ModuleName}}Controller {
+
+@Inject({{ModuleName}}Service)
+private  Service!: {{ModuleName}}Service;
+  
+
+  
+}
+
+export default {{ModuleName}}Controller;

@@ -1,0 +1,13 @@
+import { Service,Inject } from 'codex-js';
+import {{ModuleName}}Repo from './{{ModuleName}}.Repo.js';
+
+@Service()
+class {{ModuleName}}Service {
+
+@Inject({{ModuleName}}Repo)
+private  Repo!: {{ModuleName}}Repo;
+
+  
+}
+
+export default {{ModuleName}}Service;

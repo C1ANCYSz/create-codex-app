@@ -1,0 +1,7 @@
+import codex from 'codex-js-core';
+
+const app=codex();
+
+app.enableJson();
+
+export default app;

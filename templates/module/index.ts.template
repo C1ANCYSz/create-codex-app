@@ -1,0 +1,13 @@
+import { Module } from 'codex-js';
+
+import {{ModuleName}}Controller from './{{ModuleName}}.Controller.js';
+import {{ModuleName}}Service from './{{ModuleName}}.Service.js';
+import {{ModuleName}}Repo from './{{ModuleName}}.Repo.js';
+
+@Module({
+
+  controllers: [{{ModuleName}}Controller],
+  providers: [{{ModuleName}}Service, {{ModuleName}}Repo],
+  
+})
+export default {{ModuleName}}Module {}
