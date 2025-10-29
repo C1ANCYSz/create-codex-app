@@ -1,4 +1,4 @@
-# Create Codex App
+# create-codex-app
 
 scaffold a new **CodexJS** project with TypeScript using one command.
 
@@ -6,4 +6,4 @@ scaffold a new **CodexJS** project with TypeScript using one command.
 npx create-codex-app my-app
 ```
 
-## Documentation: https://github.com/C1ANCYSz/CodexJS
+#### Documentation: https://github.com/C1ANCYSz/CodexJS
