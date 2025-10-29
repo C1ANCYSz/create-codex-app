@@ -1,11 +1,11 @@
 {
   "name": "create-codex-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Codex-js CLI",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "create-codex-app": "./bin/create-codex-app.js"
+    "create-codex-app": "./bin/index.js"
   },
   "scripts": {
     "dev": "npx create-codex-app"

@@ -8,9 +8,9 @@ import boxen from 'boxen'; // <-- for a nice boxed look
 import { fileURLToPath } from 'url';
 
 // core
-import startInteractiveMode from './core/startInteractiveMode.js';
-import createPkg from './core/createPkg.js';
-import copyTemplate from './core/copyTemplate.js';
+import startInteractiveMode from '../core/startInteractiveMode.js';
+import createPkg from '../core/createPkg.js';
+import copyTemplate from '../core/copyTemplate.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
