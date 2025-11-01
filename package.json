@@ -1,6 +1,6 @@
 {
   "name": "create-codex-app",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "description": "Codex-js CLI",
   "main": "index.js",
   "type": "module",
@@ -13,18 +13,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@codex-js/core": "^1.0.0",
     "boxen": "^8.0.1",
     "chalk": "^5.6.2",
     "change-case": "^5.4.4",
     "codex-js-core": "^1.0.0",
+    "dotenv": "^17.2.3",
     "figlet": "^1.9.3",
     "fs-extra": "^11.3.2",
     "inquirer": "^12.10.0"
   },
   "devDependencies": {
-    "@types/express": "^5.0.3",
+    "@types/express": "^5.0.5",
     "@types/fs-extra": "^11.0.4",
-    "@types/node": "^24.9.1",
+    "@types/node": "^24.9.2",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   }
 }

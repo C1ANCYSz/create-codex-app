@@ -1,4 +1,4 @@
-import { Service,Inject } from 'codex-js';
+import { Service,Inject } from '@codex-js/core';
 import {{ModuleName}}Repo from './{{ModuleName}}.Repo.js';
 
 @Service()

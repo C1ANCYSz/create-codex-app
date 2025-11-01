@@ -1,4 +1,4 @@
-import { Repo } from 'codex-js';
+import { Repo } from '@codex-js/core';
 
 @Repo()
 class {{ModuleName}}Repo {

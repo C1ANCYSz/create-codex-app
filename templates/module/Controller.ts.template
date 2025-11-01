@@ -1,4 +1,4 @@
-import { Controller,Get,Post,Put,Patch,Delete,Inject } from 'codex-js';
+import { Controller,Get,Post,Put,Patch,Delete,Inject } from '@codex-js/core';
 
 import {{ModuleName}}Service from './{{ModuleName}}.Service.js';
 

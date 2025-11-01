@@ -1,4 +1,4 @@
-import codex from 'codex-js-core';
+import codex from '@codex-js/core';
 
 const app=codex();
 

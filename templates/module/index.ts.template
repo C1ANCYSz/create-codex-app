@@ -1,4 +1,4 @@
-import { Module } from 'codex-js';
+import { Module } from '@codex-js/core';
 
 import {{ModuleName}}Controller from './{{ModuleName}}.Controller.js';
 import {{ModuleName}}Service from './{{ModuleName}}.Service.js';
@@ -10,4 +10,4 @@ import {{ModuleName}}Repo from './{{ModuleName}}.Repo.js';
   providers: [{{ModuleName}}Service, {{ModuleName}}Repo],
   
 })
-export default {{ModuleName}}Module {}
+export default class {{ModuleName}}Module {}

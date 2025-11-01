@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "rootDir": ".",
+    "rootDir": "./src",
     "outDir": "./dist",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
@@ -20,6 +20,6 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false
   },
-  "include": ["src","."],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }
