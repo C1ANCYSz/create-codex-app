@@ -1,6 +1,6 @@
 {
   "name": "create-codex-app",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Codex-js CLI",
   "main": "index.js",
   "type": "module",
