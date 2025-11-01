@@ -95,8 +95,8 @@ export default app;
 
 ## Features
 
-- ✨ **Zero Configuration** - Get started immediately with sensible defaults
-- 🏗️ **Modular Architecture** - Generate feature modules with proper separation of concerns
+- **Zero Configuration** - Get started immediately with sensible defaults
+- **Modular Architecture** - Generate feature modules with proper separation of concerns
 - **TypeScript First** - Full TypeScript support out of the box
 - **Interactive CLI** - Intuitive module generation workflow
 - **Auto-Import** - Modules are automatically wired into your application
